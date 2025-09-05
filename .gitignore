@@ -1,0 +1,41 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# JetBrains Rider
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.user
+*.userprefs
+*.tmp
+*.suo
+*.pdb
+*.mdb
+
+# Visual Studio cache
+.vs/
+*.db
+*.opendb
+
+# Crash and debug
+sysinfo.txt
+
+# Build artifacts
+*.apk
+*.aab
+*.unitypackage
+
+# Cache
+*.stackdump
+*.DS_Store
