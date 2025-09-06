@@ -54,23 +54,6 @@ UI Toolkit (for health display)
  ├── Audio (Punch, Kick, Background music)
  ├── UI (Health bar, menus)
 
-🚀 How to Play
-
-Clone this repository:
-
-git clone https://github.com/your-username/your-repo-name.git
-
-
-Open the project in Unity.
-
-Play the scene from the Unity editor.
-
-Use the controls above to move and fight enemies.
-
-📸 Screenshots / Demo
-
-(Add your game screenshots or GIFs here to show movement, punches, and UI!)
-
 👥 Team
 
 This project was developed as part of a college hackathon/game dev project.
