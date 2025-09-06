@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class FixedJumpingController : MonoBehaviour
+public class Axel: MonoBehaviour
 {
     [Header("Components")]
     private Animator animator;
@@ -64,17 +64,11 @@ public class FixedJumpingController : MonoBehaviour
     void Update()
     {
         HandleInput();
-        
-        
-        PreventUnwantedScaling();
-    }
-    private void FixedUpdate()
-    {
         HandleMovement();
         UpdateAnimations();
         CheckGrounded();
+        PreventUnwantedScaling();
     }
-
     void PreventUnwantedScaling()
     {
         if (transform.localScale.y != originalScale.y || transform.localScale.z != originalScale.z)
