@@ -173,7 +173,7 @@ public class FixedJumpingController : MonoBehaviour
 
         if (canPerformActions)
         {
-            if (Input.GetKeyDown(KeyCode.V))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 PerformUppercut();
             }
